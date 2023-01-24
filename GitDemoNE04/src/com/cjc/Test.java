@@ -6,8 +6,7 @@ public class Test
 	{
 		System.out.println("Hello");
 		System.out.println("Hello Git");
-		System.setProperty("webdriver.chrome.driver","C:\Users\user\Desktop\seleniumjar\109\chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Desktop\\seleniumjar\\109\\chromedriver.exe");
 		driver.get("https://demowebshop.tricentis.com/register");
 	}
 
